@@ -5,13 +5,14 @@
 
 .banners-promocionais-statico{
   margin-top: 30px;
+  margin-left: 30px;
 
   .banners-promocionais-statico-12x{
     @include banners-promocionais($rosa, '../images/parcele-em-12x.jpg');
   }
 
   .banners-promocionais-statico-todo-br{
-    @include banners-promocionais($roxo, '../images/entrega-para-todo-brasil.jpg');
+    @include banners-promocionais($roxo, '../images/entrega-para-todo-brasil.jpg')}
   
     .banners-promocionais-statico-12x,
     .banners-promocionais-statico-todo-br{
@@ -39,4 +40,3 @@
       }
     }
   }
-}
